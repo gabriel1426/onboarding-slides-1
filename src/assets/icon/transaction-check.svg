@@ -1,0 +1,21 @@
+<svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="transaction-check" clip-path="url(#clip0_102_518)">
+<g id="Clip path group">
+<mask id="mask0_102_518" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="90" height="90">
+<g id="clip0_528_5404">
+<path id="Vector" d="M90 0H0V90H90V0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_102_518)">
+<g id="Group">
+<path id="Vector_2" d="M34.9495 33.75H28.083C20.639 33.75 20.639 45 28.083 45H31.875C39.375 45 39.375 56.25 31.875 56.25M31.875 56.25L23.2126 56.2879M31.875 56.25L30 56.2583V60M30 30V33.75M52.5 52.5H67.5M52.5 37.5H56.25M7.5 30V60C7.5 60 7.5 71.25 18.75 71.25H71.25C82.5 71.25 82.5 60 82.5 60V30C82.5 30 82.5 18.75 71.25 18.75H18.75C7.5 18.75 7.5 30 7.5 30Z" stroke="#49B742" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_102_518">
+<rect width="90" height="90" fill="white"/>
+</clipPath>
+</defs>
+</svg>

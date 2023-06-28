@@ -1,20 +1,41 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <section class="slides">
+    <span class="slides__main-title" [innerHTML]="'slideTitle' | translate"></span>
+    <swiper-container events-prefix="swiper-" pagination="true" slides-per-view="1">
+      <swiper-slide *ngFor="let slide of slides">
+        <section class="slides__container">
+          <div *ngIf="!slide.onlyImage; else onlyImage">
+            <div class="center">
+              <div class="slides__icon">
+                <i class="onboarding-icons {{slide.icon}}"></i>
+              </div>
+            </div>
+            <p class="slides__title"> {{ slide.title}} </p>
+            <p class="slides__message"> {{ slide.message}} </p>
+          </div>
+          <ng-template #onlyImage>
+            <img class="slides__img" [src]="slide.img" alt="image">
+          </ng-template>
+        </section>
+      </swiper-slide>
+    </swiper-container>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  </section>
 </ion-content>
+
+<ion-footer>
+  <div class="footer" *ngIf="!showLoginButton; else loginButton">
+    <p class="footer__skip"> {{ 'skip' | translate }}</p>
+    <div (click)="nextStep()" class="footer__next center">
+      <i class="onboarding-icons icon__arrow-right"></i>
+    </div>
+  </div>
+  <ng-template #loginButton>
+    <div class="footer__button" >
+      <ion-button expand="block"> {{ 'login' | translate }}</ion-button>
+    </div>
+  </ng-template>
+
+</ion-footer>
+
+

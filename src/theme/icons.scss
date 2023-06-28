@@ -1,0 +1,46 @@
+i {
+  &[class*='onboarding-icons'] {
+    mask-size: contain;
+    mask-position: 50% 50%;
+    mask-repeat: no-repeat;
+    background: currentColor;
+  }
+}
+
+@mixin icon-common-size {
+  width: 5rem;
+  height: 5rem;
+}
+
+.icon {
+  &__transaction-payment-services {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/transaction-payment-services.svg");
+  }
+
+  &__qr-code{
+    @include icon-common-size;
+    mask-image: url("../assets/icon/qr-code.svg");
+  }
+
+  &__head-phone {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/head-phone.svg");
+  }
+
+  &__transaction-check {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/transaction-check.svg");
+  }
+
+  &__action-share {
+    @include icon-common-size;
+    mask-image: url("../assets/icon/action-share.svg");
+  }
+
+  &__arrow-right {
+    width: 1.5rem;
+    height: 1.5rem;
+    mask-image: url("../assets/icon/arrow-right.svg");
+  }
+}

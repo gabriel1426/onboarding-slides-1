@@ -1,0 +1,41 @@
+{
+  "slideTitle": "¡Nuevas funcionalidades <br> en tu Móvil Banking Personal!",
+  "slides": [
+    {
+      "title": "Nos transformamos para ti",
+      "message": "Ahorra tiempo y esfuerzo solicitando nuestros productos 100% Digitales.",
+      "icon": "icon__transaction-payment-services",
+      "onlyImage": false
+    },
+    {
+      "title": "Transacciones QR",
+      "message": "Cobra y realiza tus pagos entre cuentas BHD usando códigos QR.",
+      "icon": "icon__qr-code",
+      "onlyImage": false
+    },
+    {
+      "title": "Tu Asesor de Negocios",
+      "message": "Conoce los canales disponibles para comunicarte con tu asesor de negocios.",
+      "icon": "icon__head-phone",
+      "onlyImage": false
+    },
+    {
+      "img": "assets/img/bhd_ranking_gold.png",
+      "onlyImage": true
+    },
+    {
+      "title": "¡Olvídate de las filas!",
+      "message": "Ahora puedes depositar tus cheques de BHD y otros bancos utilizando tu aplicación desde cualquier lugar, sin necesidad de ir al banco.",
+      "icon": "icon__transaction-check",
+      "onlyImage": false
+    },
+    {
+      "title": "¡Comparte fácilmente los datos de tu cuenta!",
+      "message": "Desde el detalle de tu cuenta, ahora puedes compartir los datos necesarios para recibir transferencias desde BHD, interbancarias e internacionales.",
+      "icon": "icon__action-share",
+      "onlyImage": false
+    }
+  ],
+  "skip": "Saltar",
+  "login": "Iniciar sesión"
+}

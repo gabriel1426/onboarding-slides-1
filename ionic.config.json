@@ -1,5 +1,7 @@
 {
   "name": "onboardin-slides",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
